@@ -1,0 +1,24 @@
+.Image {
+    width: 100px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 16px 0;
+    color: #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Image:hover,
+.Image:active {
+    background-color: #C0DDF5;
+}
+
+.carousel-caption {
+    top: 50px;
+    bottom: initial;
+    color: #9fa6ab;
+    background: linear-gradient(110deg, #0e202d 70%, #172b3a 60%);
+    opacity: 0.9;
+}

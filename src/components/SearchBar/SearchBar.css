@@ -1,0 +1,54 @@
+.SearchBar {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #172b3a;
+    color: #9fa6ab;
+}
+
+.SearchBar label {
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+.SearchBar input {
+    background-color: #0e202d;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+    color: #9fa6ab;
+}
+
+.SearchBar button {
+    padding: 10px;
+    font: inherit;
+    border: 1px solid black;
+    background-color: #0e202d;
+    color: #9fa6ab;
+    cursor: pointer;
+}
+
+.SearchBar button:hover,
+.SearchBar button:active {
+    background-color: #0d101c;
+}
+
+.SearchBarInput {
+    margin-right: 20px;
+    float: left;
+    width: 300px;
+}
+
+.SearchButton {
+    margin-top: 10px;
+    float: right;
+}
+
+.ClearFix {
+    clear: both;
+}
