@@ -38,7 +38,9 @@ class Slider extends Component {
     updateImages(config) {
         this.setState({loaded: false});
         axios.get('http://api.imagecarousel.local/images', config).then(response => {
-            this.setState({images: response.data.images});
+            if (response.data.images) {
+                this.setState({images: response.data.images});
+            }
             this.setState({loaded: true});
         });
     }
